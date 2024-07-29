@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">ankulcode</a>
+
+        <nav class="navbar">
+          <div class="navbar-top">
+            <a href="#">ankulcode</a>
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="navbar-link">About</a>
+            </li>
+            <li>
+              <a href="#skills" class="navbar-link">Skills</a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+            <li>
+              <a
+                href="./Ankul_Resume.pdf"
+                class="navbar-link"
+                download="Ankul_Resume.pdf"
+                >Resume</a
+              >
+            </li>
+          </ul>
+          <div class="wrapper">
+            <a href="mailto:frost.ankur019@gmail.com" class="contact-link"
+              >frost.ankur019@gmail.com</a
+            >
+            <a href="tel:9761578329" class="contact-link">+91 9761578329</a>
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn">
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <div class="overlay"></div>
+      </div>
+    </header>
+
+    <!-- -----------------------------------#HERO-SECTION ----------------------------------- -->
+    <section class="section hero-section">
+      <div class="container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Mitchell<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Mitchell, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="btn-wrapper">
+            <a href="#about" class="btn btn-primary">About Me</a>
+
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="image">
+          <img
+            src="https://ankul07.github.io/iamAnkur/IMG_20220130_104117-removebg-preview.png"
+            alt="profile"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------#ABOUT-SECTION ----------------------------------- -->
+
+    <section class="about-section section" id="about">
+      <span class="section__subtitle">My Intro</span>
+      <h2 class="section__title">ABOUT ME</h2>
+
+      <div class="about__container container grid">
+        <img
+          src="https://ankul07.github.io/iamAnkur/IMG_20220130_104117-removebg-preview.png"
+          alt="my-image"
+          class="about__img"
+        />
+
+        <div class="about__data" style="margin-top: 2rem">
+          <div class="about__info">
+            <div class="about__box">
+              <i class="bx bx-award about__icon"></i>
+              <h3 class="about__title">Experience</h3>
+              <span class="about__subtitle">2 years working</span>
+            </div>
+
+            <div class="about__box">
+              <i class="bx bx-briefcase-alt about__icon"></i>
+              <h3 class="about__title">Completed</h3>
+              <span class="about__subtitle">20 + Projects</span>
+            </div>
+
+            <div class="about__box">
+              <i class="bx bx-support about__icon"></i>
+              <h3 class="about__title">Support</h3>
+              <span class="about__subtitle">Online 24/7</span>
+            </div>
+          </div>
+          <p class="about__description">
+            Hi, I’m Ankur.I am a Front-end Developer with 2 years Experience. I
+            create successful websites that are fast, easy to use, and built
+            with best practices.I work to make a better web; one that is fast,
+            easy to use, beautiful, accessible to all, and frustration-free.
+            Regardless of your specific business requirements, in solving these
+            challenges, you have a great chance of finding success online.
+          </p>
+          <a href="#contact" class="btn btn-primary about-btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------#SKILLS-SECTION ----------------------------------- -->
+
+    <section class="skill-section section" id="skills">
+      <span class="section__subtitle">My Abilities</span>
+      <h2 class="section__title">MY SKILLS</h2>
+      <div class="skill__container container grid">
+        <div class="box">
+          <div class="card" id="front"></div>
+          <div class="card" id="back"></div>
+          <div class="card" id="left"></div>
+          <div class="card" id="right"></div>
+          <div class="card" id="top"></div>
+          <div class="card" id="bottom"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------#CONTACT-SECTION ----------------------------------- -->
+    <section class="contact-section section" id="contact">
+      <span class="section__subtitle">Get In Touch</span>
+
+      <h2 class="section__title">CONTACT US</h2>
+
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h3 class="contact__title">Talk To Me</h3>
+
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class="bx bx-mail-send contact__card-icon"></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card_data">frost.ankur019@gmail.com</span>
+
+              <a
+                href="https://mailto.frost.ankur019@gmail.com"
+                target="_blank"
+                class="contact__button"
+              >
+                write me
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class="bx bxl-whatsapp contact__card-icon"></i>
+              <h3 class="contact__card-title">Whatsapp</h3>
+              <span class="contact__card_data">+919761578329</span>
+
+              <a
+                href="https://api.whatsapp.com/send/?phone=9761578329&text&app_absent=0"
+                target="_blank"
+                class="contact__button"
+              >
+                write me
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact__content margin">
+          <h3 class="contact__title">
+            Feel free to drop us a line to contact us
+          </h3>
+
+          <form action="" class="contact__form">
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Name</label>
+              <input
+                type="text"
+                placeholder="Full Name"
+                class="contact__form-input"
+              />
+            </div>
+
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Mail</label>
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                class="contact__form-input"
+              />
+            </div>
+
+            <div class="contact__form-div contact__form-area">
+              <label for="" class="contact__form-tag">Project</label>
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Type Your Message"
+                class="contact__form-input"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary about-btn">Send Me</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------#FOOTER-SECTION ----------------------------------- -->
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Ankur</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer__link">About Me</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="footer__link">My Skills</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/ankur-agarwal-283b76232/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+
+          <a
+            href="https://github.com/ankul07"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a
+            href="https://dribble.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-dribbble"></i>
+          </a>
+        </ul>
+        <span class="footer__copy"> &#169; Ankur-Web, All Right Reserved </span>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
